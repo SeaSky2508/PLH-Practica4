@@ -1,6 +1,19 @@
 # PLH-Practica4
 A Github repo to handle code and information for a practical work training word embeddings.
 
+Contains python files for two classes, data and models each to handle corpus of text and different models
+trained for word embeddings, respectively.
+
+A sample jupyter notebook for usage is provided. However, NO notebook apart from this one should be pushed
+into the repo because notebooks are to be developed apart from the repo. This repo IS ONLY to handle the classes which will be imported into the notebooks.
+
+## INFORMATION ABOUT WORD2VEC
+
+Recommended links:
+https://towardsdatascience.com/word2vec-skip-gram-model-part-1-intuition-78614e4d6e0b
+
+http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/
+
 Word2Vec method will be used for a skip-gram method. A Word2Vec method can be seen in the following analyisis of the large baseline model provided:
 
 1. **Function Definition**: The code defines a function named `build_and_compile_model` that takes several input arguments: `input_length`, `hidden_size`, `dictionary_size`, and `embedding_size`. These arguments determine the architecture and hyperparameters of the model.
@@ -35,3 +48,4 @@ Word2Vec method will be used for a skip-gram method. A Word2Vec method can be se
 
 7. **Return**: The function returns the compiled model.
 
+For further understanding of word2vec please check the pdf provided. 
